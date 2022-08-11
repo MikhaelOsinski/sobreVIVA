@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<html>
+
+
+    <head>
+
+        <title>sobreVIVA</title>
+        <meta charset="UTF-8">         
+        <link rel="stylesheet" href="sobreVIVA.css"/> 
+               
+       
+     
+        
+    </head>
+
+    <header>
+        
+        
+    </header>
+
+
+    <body onload="Load()">   
+        
+        <noscript>
+                          
+            Este é um jogo em JavaScript, receio que não há muito o que fazer por aqui com o mesmo desabilitado :(
+           
+        </noscript>
+        
+        <div id="log">
+            
+           
+        </div>
+
+        <div id="statusPersonagem">
+
+                <h2>
+                
+                </h2>
+                <div>
+                    <a href="#telaCentral" onclick="AtualizarTelaAtual(this)">Cabana</a> 
+                    <a href="#Expedicao" onclick="AtualizarTelaAtual(this)">Explorar</a> 
+                    <a href="#Oficina" onclick="AtualizarTelaAtual(this)">Oficina</a>
+                    <a href="#Cozinha" onclick="AtualizarTelaAtual(this)">Cozinha</a>
+                </div>
+                
+            
+        </div>
+
+               
+        <div id="telaCentral">
+            
+            <h1>Cabana</h1>
+            <div>              
+                <button id="Descansar">Descansar</button>
+                <div>O tempo a dormir é a metade do tempo acordado</div>
+            </div>
+
+           
+
+        </div>
+        
+        <div id="Expedicao">
+            <h1>Expedição</h1>
+
+            <div>
+                <button id="Explorar">Explorar:</button>
+                
+            </div>
+            
+            <div class="distanciaExplorar">
+                <input type="radio" id="radio0" name="distancia" value="0"/>
+                <label for="radio0">Em volta</label>
+                <input type="radio" id="radio1"name="distancia" value="1"/>
+                <label for="radio1">Todos arredores</label>
+                <input type="radio" id="radio2" name="distancia" value="2"/>
+                <label for="radio2">Mais distante</label>
+                <input type="radio" id="radio3" name="distancia" value="3"/>
+                <label for="radio3">Muito distante</label>
+                <input type="radio" id="radio4" name="distancia" value="4"/>
+                <label for="radio4">Peregrinar</label>
+                    <div>
+                    Do próximo ao mais distante
+                    </div>
+            </div>
+
+            <div class="botoesLoot" id="listaLoot"> Você encontrou: <br>
+                
+                <label class="botoesLoot">
+                                      
+                 </label>   
+
+            </div>
+
+            <button class="botoesLoot" id="levarLoot">Levar para Cabana</button>
+
+        </div>
+
+        <div id="Oficina">
+            <h1>Oficina</h1>
+            <h2>Ferramentas novas permitem obter mais itens ao explorar</h2>
+            
+                <div id="inventorio">Materiais disponíveis
+                    <div>
+                        
+                    </div>
+                </div>
+                
+                <div id="menuCraft">Itens construíveis
+                    <div>
+
+                    </div>
+                </div>
+
+        </div>
+
+        <div id="Cozinha">
+            <h1>Cozinha</h1> <br>
+
+            <div>              
+                <h2 id="fogo">O fogo está apagado</h2>
+            </div>
+            
+                <div id="inventorio">
+                    Comida na dispensa
+
+                    <div>
+                        
+                    </div>
+
+                </div>
+                
+                
+                <div id="menuCraft">Receitas
+
+                    <div>
+
+                    </div>
+
+
+                </div>
+
+        </div>
+
+        
+        
+
+        
+       
+        
+        
+
+        <script src="sobreVIVA.js"></script> 
+    </body>
+
+
+    <footer>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+</html>

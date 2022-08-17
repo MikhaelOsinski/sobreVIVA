@@ -1,16 +1,17 @@
-# sobreVIVA Olá, tudo bem? Este é um jogo original, nada baseado em tutoriais :) Como jogar:
+# sobreVIVA Olá, tudo bem? Este é um jogo original, nada baseado em tutoriais :) 
 
-Exploração: Explore para obter recursos - Quanto maior a distância, maior o tempo necessário bem como a chance de obter recompensas.
+# Como jogar:
 
-Cabana: Descanse, de forma que seja possível explorar novamente.
+- Exploração: Explore para obter recursos - Quanto maior a distância, maior o tempo necessário bem como a chance de obter recompensas.
 
-Cozinha: Alimente-se com o que fora obtido na natureza, ou cozinhe, para obter alimentos com maior valor de saciedade.
+- Cabana: Descanse, de forma que seja possível explorar novamente.
 
-Oficina: Aqui é possível construir ferramentas, de forma que novos itens são obtíveis ao explorar, de acordo com as ferramentas construídas. Por exemplo: A machadinha permite obter lenhas, para ascender o fogo e cozinhar.
+- Cozinha: Alimente-se com o que fora obtido na natureza, ou cozinhe, para obter alimentos com maior valor de saciedade.
 
+- Oficina: Aqui é possível construir ferramentas, de forma que novos itens são obtíveis ao explorar, de acordo com as ferramentas construídas. Por exemplo: A machadinha permite obter lenhas, para ascender o fogo e cozinhar.
 Cada uso de uma ferramenta diminui sua durabilidade em 1, ao chegar a 0 a ferramenta é removida do inventório.
 
-SobreVIVA! O máximo de tempo que conseguir :)
+- SobreVIVA! O máximo de tempo que conseguir :)
 
 
 # Alterações previstas no futuro:

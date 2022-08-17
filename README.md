@@ -1,10 +1,6 @@
-# sobreVIVA
+# sobreVIVA Olá, tudo bem? Este é um jogo original, nada baseado em tutoriais :)
 
-Olá, tudo bem?
-
-Este é um jogo original, nada baseado em tutoriais :)
-
-Como jogar:
+# Como jogar:
 
 # Exploração: Explore para obter recursos - Quanto maior a distância, maior o tempo necessário bem como a chance de obter recompensas.
 
